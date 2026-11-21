@@ -1395,3 +1395,6 @@ body{background:var(--paper);font-family:Arial,'PingFang SC','Microsoft YaHei',s
 
 /* Full concept figures, with uncropped previews. */
 .research-visual{aspect-ratio:3/2}.research-visual img{width:100%;height:100%;object-fit:contain}
+
+/* Consistent bibliography and author contribution marks. */
+.publication-authors sup{font-size:.8em;line-height:0;vertical-align:super}.publication-authors strong{font-weight:700;color:#244e39}.publication-doi{font-size:13px;overflow-wrap:anywhere;margin:10px 0 0}.publication-doi a{text-decoration:underline;text-underline-offset:3px}.publication-legend{line-height:1.8}
